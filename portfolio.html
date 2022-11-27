@@ -24,10 +24,10 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header-menu">
+    <header>
       <div class="container">
         <div class="header-menu-cont">
-          <nav class="navigations-header">
+          <nav class="navi-header">
             <a href="./index.html" class="webstudio-logo">
               Web<span class="studio-logo">Studio</span></a
             >
@@ -286,54 +286,56 @@
     </main>
 
     <footer class="footer">
-      <div class="container footer-link-social">
-        <div>
+      <div class="container footer-link__social">
+        <div class="footer-box_first">
           <a href="./index.html" class="webstudio-logo">
-            Web<span class="studio-logo-footer">Studio</span></a
+            Web<span class="footer-logo__studio">Studio</span></a
           >
 
-          <address class="adres">м. Київ, пр-т Лесі Українки, 26</address>
+          <address class="footer-adres">
+            м. Київ, пр-т Лесі Українки, 26
+          </address>
 
           <ul>
-            <li class="mail-contakt-footer">
-              <a href="mailto:info@devstudio.com" class="footer-contacts-link"
+            <li class="footer-email">
+              <a href="mailto:info@devstudio.com" class="footer-contacts__link"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="phone-contact-footer">
-              <a href="tel:+380961111111" class="footer-contacts-link"
+            <li class="footer-tel">
+              <a href="tel:+380961111111" class="footer-contacts__link"
                 >+38 096 111 11 11</a
               >
             </li>
           </ul>
         </div>
         <div class="footer-social-contener">
-          <h2 class="title-footer-social">ПРИЄДНУЙТЕСЬ</h2>
-          <ul class="footer-icon">
-            <li class="footer-social-icon">
+          <h2 class="footer-social__title">ПРИЄДНУЙТЕСЬ</h2>
+          <ul class="footer-social__list">
+            <li class="footer-social__item">
               <a href="#" class="footer-social-link">
-                <svg class="social-icon-down">
+                <svg class="footer-social__icon">
                   <use href="./images/spryte.svg#icon-instagram-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-icon">
+            <li class="footer-social__item">
               <a href="#" class="footer-social-link">
-                <svg class="social-icon-down">
+                <svg class="footer-social__icon">
                   <use href="./images/spryte.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-icon">
+            <li class="footer-social__item">
               <a href="#" class="footer-social-link">
-                <svg class="social-icon-down">
+                <svg class="footer-social__icon">
                   <use href="./images/spryte.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-icon">
+            <li class="footer-social__item">
               <a href="#" class="footer-social-link">
-                <svg class="social-icon-down">
+                <svg class="footer-social__icon">
                   <use href="./images/spryte.svg#icon-linkedin-1"></use>
                 </svg>
               </a>
@@ -342,20 +344,20 @@
         </div>
         <!----------------- form subscribe  ----------------->
         <div class="form-footer">
-          <h2 class="lable-subscribe-title">Підпишіться на розсилку</h2>
-          <form class="form-subscribe">
+          <h2 class="subscribe-title">Підпишіться на розсилку</h2>
+          <form class="subscribe-form">
             <label class="lable-subscribe" for="subscribe"></label>
 
             <input
-              class="input-subscribe"
-              type="mail"
+              class="subscribe-input"
+              type="email"
               id="subscribe"
               placeholder="E-mail"
             />
 
-            <button class="button-subscribe" type="submit">
+            <button class="subscribe-button" type="submit">
               Підписатися
-              <svg class="icon-subscribe">
+              <svg class="subscribe-icon">
                 <use href="./images/spryte-modal.svg#icon-icon-send"></use>
               </svg>
             </button>
