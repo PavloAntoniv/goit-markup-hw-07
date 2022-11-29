@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before *::after {
+    box-sizing: inherit;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    font-family: "Roboto";
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+/* site nav  */
+h1,
+h2,
+h3,
+ul,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--title-text-color);
+}
+
+li {
+    list-style-type: none;
+}
+
+.section {
+    padding: 94px 0;
+}
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+}
+
+.studio-logo {
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--accent-color);
+}
+
+.header-menu {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--title-text-color);
+}
+
+ul {
+    text-decoration: none;
+}
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+
+    width: 696px;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}

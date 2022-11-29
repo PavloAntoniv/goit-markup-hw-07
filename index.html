@@ -32,13 +32,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!------------ header------------>
     <header>
       <div class="container">
-        <div class="header-menu-cont">
+        <div class="header-menu__box">
           <nav class="navi-header">
             <a href="./index.html" class="webstudio-logo">
               Web<span class="studio-logo">Studio</span></a
@@ -57,10 +57,10 @@
             </ul>
           </nav>
 
-          <ul class="header-contacts-link">
+          <ul class="header-contacts__link">
             <li class="mail">
               <a href="mailto:info@devstudio.com" class="contact-link">
-                <svg class="icon-mail-box">
+                <svg class="nav__icon">
                   <use href="./images/spryte.svg#icon-mail-box"></use>
                 </svg>
                 info@devstudio.com</a
@@ -68,7 +68,7 @@
             </li>
             <li>
               <a href="tel:+380961111111" class="contact-link">
-                <svg class="icon-mail-box">
+                <svg class="nav__icon">
                   <use href="./images/spryte.svg#icon-phoneicon"></use>
                 </svg>
                 +38 096 111 11 11</a
@@ -84,8 +84,8 @@
         <div class="container">
           <div class="overlay">
             <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-            <button data-modal-open type="button" class="button-order">
-              <span class="button-title">Замовити послугу</span>
+            <button data-modal-open type="button" class="nav_button">
+              <span class="nav-button__title">Замовити послугу</span>
             </button>
           </div>
         </div>
@@ -458,32 +458,32 @@
             </li>
           </ul>
         </div>
-        <div class="footer-social-contener">
+        <div class="">
           <h2 class="footer-social__title">ПРИЄДНУЙТЕСЬ</h2>
           <ul class="footer-social__list">
             <li class="footer-social__item">
-              <a href="#" class="footer-social-link">
+              <a href="#" class="footer-social__link">
                 <svg class="footer-social__icon">
                   <use href="./images/spryte.svg#icon-instagram-2"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-social__item">
-              <a href="#" class="footer-social-link">
+              <a href="#" class="footer-social__link">
                 <svg class="footer-social__icon">
                   <use href="./images/spryte.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-social__item">
-              <a href="#" class="footer-social-link">
+              <a href="#" class="footer-social__link">
                 <svg class="footer-social__icon">
                   <use href="./images/spryte.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-social__item">
-              <a href="#" class="footer-social-link">
+              <a href="#" class="footer-social__link">
                 <svg class="footer-social__icon">
                   <use href="./images/spryte.svg#icon-linkedin-1"></use>
                 </svg>
@@ -496,7 +496,7 @@
         <div class="form-footer">
           <h2 class="subscribe-title">Підпишіться на розсилку</h2>
           <form class="subscribe-form">
-            <label class="lable-subscribe" for="subscribe"></label>
+            <label class="" for="subscribe"></label>
 
             <input
               class="subscribe-input"
