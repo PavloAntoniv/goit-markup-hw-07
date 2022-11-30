@@ -1,3 +1,8 @@
+.header {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--title-text-color);
+}
 .navi-container {
     display: flex;
     gap: 50px;
@@ -230,4 +235,19 @@
 .nav_button:focus {
     background: var(--title-text-color);
     color: var(--primary-text-color);
+}
+.nav__icon {
+    justify-content: center;
+    width: 16px;
+    height: 12px;
+    fill: currentColor;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    transition-property: var(--background-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav__icon:hover {
+    fill: var(--background-color);
 }
